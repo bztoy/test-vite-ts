@@ -2,6 +2,8 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+import "@ui5/webcomponents/dist/Label";
+import "@ui5/webcomponents/dist/Input";
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -14,6 +16,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>Vite + TypeScript + UI5</h1>
     <div class="card">
       <button id="counter" type="button"></button>
+    </div>
+    <div>
+    <ui5-label for="myInputSimple" show-colon>Simple Label</ui5-label>
+    <ui5-input id="myInputSimple"></ui5-input>
     </div>
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
