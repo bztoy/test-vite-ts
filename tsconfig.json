@@ -17,6 +17,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "types": ["@openui5/types"],
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]

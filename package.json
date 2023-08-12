@@ -13,6 +13,8 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "@ui5/webcomponents": "^1.16.0"
+    "@openui5/types": "^1.117.0",
+    "@ui5/webcomponents": "^1.16.0",
+    "@ui5/webcomponents-fiori": "^1.16.0"
   }
 }
